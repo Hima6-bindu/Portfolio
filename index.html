@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PORTFOLIO</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Odometer CDN -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.min.css" integrity="sha512-/k/mL9TQSZHAqtVqXJAiy5bt2w1P7gxdra0UlnFjVHF9a/LC2vxt7otx3BMcn79V/DZsPRwdw8tPlwbElMnIAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <!--HighlightJs CDN-->
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+
+    <!--swiper cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+    
+    <!--Navbar Start-->
+    <nav id = "navbar" class = "flex__center">
+          <div class="logo">
+              <i data-custom-icon="logo"></i>
+          </div>
+
+        <div class ="flex nav__routes">
+            <a href="#header" class="route active">Home</a>
+            <a href="#about" class="route">About</a>
+            <a href="#services" class="route">Services</a>
+            <a href="#projects" class="route">Projects</a>
+            <a href="#testimonials" class="route">Education</a>
+            <a href="#contact" class="route">Contact</a>
+        </div>
+        <div class="flex_center">
+            <label class="theme__toggle">
+                <input type="checkbox" id="theme-checkbox">
+                <div class="icon__container">
+                    <i data-lucide="sun"  class="sun"></i>
+                    <i data-lucide="moon" class="moon"></i>
+
+                </div>
+            </label>
+            <div class="icon_container menubtn" id="menu_btn">
+                 <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!-- Sidebar start -->
+    <aside class="sidebar">
+        <div class="sidebar__wrapper">
+            <div class="flex__center top">
+                <div class="logo">
+                    <i data-custom-icon="logo"></i>
+                </div>
+                <div class="icon__container" id="close-sidebar-btn">
+                    <i data-lucide="x"></i>
+                </div>
+            </div>
+            <div class="middle navlinks">
+                <a href="#header" class="navitem">Home</a>
+                <a href="#about" class="navitem">About</a>
+                <a href="#services" class="navitem">Services</a>
+                <a href="#projects" class="navitem">Projects</a>
+                <a href="#testimonials" class="navitem">Testimonials</a>
+                <a href="#contact" class="navitem">Contact</a>
+            </div>
+        </div>
+    </aside>
+    <!-- Sidebar end-->
+
+    <!-- Header Section Start-->
+    <section id="header" class="bg__secondary">
+        <div class="spotlight"></div>
+        <div class="container">
+            <div class="grid">
+                <div class="me">
+                    <img src="assets/me.png" alt="me" class="profile-img">
+
+                </div>
+                <div class="user__info">
+                    <h2 class="sub__title">Hi 👋, I'm Patchava Hima Bindu </h2>
+                    <h1 class="title">Aspiring Software Engineer</h1>
+                    <p class="description">Still learning, still building — one step at a time.
+I enjoy solving problems and creating simple tech solutions.</p>
+                    <div class="flex buttons">
+                        <div class="flex social__handles">
+                            
+                            <a href="#" target="blank" class="icon_container handle">
+                                <i data-custom-icon="github"></i>
+                            </a>
+                            <a href="#" target="blank" class="icon_container handle">
+                                <i data-custom-icon="linkedin"></i>
+                            </a>
+                            <a href="#" target="blank" class="icon_container handle">
+                                <i data-custom-icon="youtube"></i>
+                            </a>
+                        </div>
+                        <a href="#contact" class="btn btn__primary">Contact Me</a>
+                    </div> 
+                </div>
+                <!-- Points Bar -->
+                <!-- Stats / Points Bar -->
+                 <!-- Stats / Points Bar -->
+                <div class="points">
+                    
+                    <!-- Education -->
+                    <div class="point">   
+                        <div class="flex">
+                            <div class="odometer sub__title" id="education">3</div>
+                            <h3 class="sub__title">+</h3>
+                        </div>
+                        <p class="text__muted">Education</p>
+                    </div>
+
+  <!-- Experience -->
+                    <div class="point">   
+                        <div class="flex">
+                            <div class="odometer sub__title" id="experience">0</div>
+                            <h3 class="sub__title"> – Fresher</h3>
+                        </div>
+                        <p class="text__muted">Years Of Experience</p>
+                    </div>
+
+  <!-- Completed Projects -->
+                    <div class="point">   
+                        <div class="flex">
+                            <div class="odometer sub__title" id="project">2</div>
+                            <h3 class="sub__title"></h3>
+                        </div>
+                        <p class="text__muted">Completed Projects</p>
+                    </div>
+
+  
+
+  <!-- Achievements -->
+                    <div class="point">   
+                        <div class="flex">
+                            <div class="odometer sub__title" id="achievement">2</div>
+                            <h3 class="sub__title">🏆</h3>
+                        </div>
+                        <p class="text__muted">Achievements</p>
+                    </div>
+
+                </div>
+
+                
+
+  
+
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Header Section End-->
+     
+    <!-- About Start -->
+    <section id="about">
+        <div class="container grid">
+            <!-- box start -->
+             <div class="box self__start">
+                <div class="spotlight"></div>
+                <div class="cluster">
+                    <div class="flex user">
+                        <div class="profile">
+                            <img src="./assets/me.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h4>Patchava Hima Bindu</h4>
+                            <p class="text__muted">Aspiring Software Engineer</p>
+                        </div>
+                    </div>
+                    <h2 class="sub__title">
+                        <span class="primary">Passionate</span> Developer and Learner
+                    </h2>
+                    <p class="description">I adapt to different time zones to make sure communication is smooth, no matter where you're located.</p>
+                </div>
+                <i data-custom-icon="window" class="kit window"></i>
+             </div>
+
+             <!-- box end -->
+             <!--box start-->
+             <div class="col-2 box">
+                <div class="spotlight"></div>
+                <div class="flex row cluster">
+                    <div class="code__block">
+                        <div class="flex_center dot_container">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <pre>
+<code>
+const developer = {
+    firstName: "Patchava",
+    lastName: "Hima Bindu",
+    hobby: repeat=() => {
+        //Badminton player();
+        //Dancing();
+        //read();
+        //cook();
+        //repeat();
+    }
+}
+</code>
+</pre>
+                    </div>
+                    <div class="my__drive">
+                        <h2 class="sub__title">
+                            What <span class="primary"> Drives Me</span>
+                        </h2>
+                        <p class="description">I'm driven by curiosity and the thrill of building things with code 💻. I enjoy learning how technology works and using it to solve real problems. Whether it’s understanding AI 🤖, experimenting with sensors 🔧, or designing with HTML & CSS 🎨 — I’m always eager to explore, learn, and improve. Every step is a new challenge, and that’s what makes it exciting ✨</p>
+                         
+                    </div>
+                </div>
+                <i data-custom-icon="grid-wire-frame" class="kit grid__wireframe"></i>
+            </div>
+<!-- box start-->
+            <div class="col-2 box">
+                <div class="cluster">
+                    <div class="column">
+                        <h2 class="sub__title">My <span class="primary">Tech Stack</span></h2>
+                        <p class="decription">Always Evolving My Tech Stack</p>
+                    </div>
+                    <div class="column stacks__container">
+                        <div class="flex__center btn stack">
+                            <i data-custom-icon="java"></i>Java
+                        </div> 
+                        <div class="flex__center btn stack">
+                            <i data-custom-icon="python"></i>Python
+                        </div>
+                        <div class="flex__center btn stack">
+                            <i data-custom-icon="html5"></i>HTML
+                        </div>
+                        <div class="flex__center btn stack">
+                            <i data-custom-icon="css3"></i>CSS
+                        </div>
+                        <div class="flex__center btn stack">
+                            <i data-custom-icon="javascript"></i>JavaScript
+                        </div>
+                        <div class="flex__center btn stack">
+                            <i class="fas fa-database"></i> SQL
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <i data-custom-icon="grid" class="kit grid__box"></i>
+                <i data-custom-icon="card-ui" class="kit card__ui"></i>
+                
+            </div>
+<!--box end-->
+
+            <!-- box start -->
+            <div class="box flex_center last_box">
+                <div class="cluster">
+                    <h2 class="text_white sub_title">I'm Committed to Collaboration and Clear Communication</h2>
+                    <div class="flex_center btn_wrapper">
+                        <a href="#contact" class="btn">Let Collaborate</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- box end -->
+
+
+        </div>
+    </section>
+
+    <!-- About End -->
+    
+    <!--Services section start-->
+    <section id="services" class="bg__secondary">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="sub__title">
+                    My <span class="primary">Services</span>
+                </h2>
+                <p class="description">I’m currently exploring the world of software development by learning both frontend and backend technologies. I enjoy working on simple, responsive web pages and experimenting with logic, design, and databases as I continue to grow my skills and take on new challenges.</p>
+            </div>
+             
+            <div class="services">
+
+                <!--service start 1-->
+                <div class="service">
+                    <div class="flex__center circle">
+                        <div class="spotlight"></div>
+                        <div class="icon__container">
+                            <i data-lucide="smartphone"></i>
+                        </div>
+                    </div>
+                    <h3 class="name">Responsive Web Design</h3>
+                    <p class="text__muted description">Designing and developing responsive websites that work smoothly across all screen sizes, ensuring accessibility and user-friendliness on desktops, tablets, and mobile devices.</p>
+                    <div class="flex__center">
+                        <a href="#contact" class="btn">Let Talk<i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!--service end 1-->
+
+                <!--service start 2-->
+
+                <div class="service">
+                    <div class="flex__center circle">
+                        <div class="spotlight"></div>
+                        <div class="icon__container">
+                            <i data-lucide="code"></i>
+                        </div>
+                    </div>
+                    <h3 class="name">Full Stack Development (Beginner Level)</h3>
+                    <p class="text__muted description">Creating simple yet efficient web applications using foundational knowledge of frontend and backend technologies, with a focus on clean code, modularity, and scalability.</p>
+                    <div class="flex__center">
+                        <a href="#contact" class="btn">Let Talk<i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!--service end 2-->
+
+                <!--service start 3-->
+
+                <div class="service">
+                    <div class="flex__center circle">
+                        <div class="spotlight"></div>
+                        <div class="icon__container">
+                            <i data-lucide="pencil-ruler"></i>
+                        </div>
+                    </div>
+                    <h3 class="name">Project-Based Learning</h3>
+                    <p class="text__muted description">Applying core concepts of software development through academic and personal projects that demonstrate my ability to build functional solutions and continuously improve my skill set.</p>
+                    <div class="flex__center">
+                        <a href="#contact" class="btn">Let Talk<i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!--service end 3-->
+
+            </div>
+        </div>
+    </section>
+
+    <!--Services section end-->
+   
+    <!--Projects section start-->
+    <section id="projects">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="sub__title">
+                    My Projects
+                </h2>
+                <p class="description">
+                    Explore my  work, blending creativity and code for functional, responsive websites with clean design and seamless user experiences.
+                </p>
+            </div>
+            <div class="projects">
+
+                <!--project start 1-->
+
+                <div class="project">
+                    <a href="#" target="_blank" class="picture">
+                        <img src="./assets/project1.png" alt="">
+                    </a>
+                    <div class="flex details">
+                        <h3 class="line_clamp_1">
+                            Developed My Portfolio Website
+                        </h3>
+                        <p class="text_muted description lineclamp_4">
+                            Designed and developed a clean Portfolio Website using technoilogies like HTML,CSS and node.js
+                        </p>
+                        <div class="flex bottom">
+                            <a href="#" target="blank" class="flex_center btn">
+                                <i data-lucide="square-arrow-out-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--project end 1-->
+
+                
+
+                <!--project start 2-->
+
+                <div class="project">
+                    <a href="#" target="_blank" class="picture">
+                        <img src="./assets/image.jpg" alt="">
+                    </a>
+                    <div class="flex details">
+                        <h3 class="line_clamp_1">
+                            Restaurant Website (MERN Stack)
+                        </h3>
+                        <p class="text_muted description lineclamp_4">
+                            I designed and developed a clean, responsive restaurant website to showcase menus, highlight services, and improve the overall user experience. It features smooth navigation, mobile-friendly design, and a visually appealing layout — built using HTML, CSS, and JavaScript.
+                        </p>
+                        <div class="flex bottom">
+                            <a href="#" target="blank" class="flex_center btn">
+                                <i data-lucide="square-arrow-out-up-right"> </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--project end 2-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--Projects section end-->
+
+    <!-- Testimonials Start -->
+<section id="testimonials">
+  <div class="section__header">
+    <h2 class="sub__title">
+      My <span class="primary">Education</span>
+    </h2>
+  </div>
+
+  <div class="swiper testimonials">
+    <div class="swiper-wrapper">
+      
+      <!-- Slide 1 -->
+      <div class="swiper-slide testimonial">
+        <div class="flex user">
+          <div class="profile">
+            <img src="./assets/client1.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h2 class="name">B.Tech - Vellore Institute Of Technology AP</h2>
+            <div class="flex row">
+              <p class="text__muted position">From:</p>
+              <p class="primary company">2022-2026</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex_center stars_container">
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide testimonial">
+        <div class="flex user">
+          <div class="profile">
+            <img src="./assets/client2.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h2 class="name">Intermediate - Vignan Junior College</h2>
+            <div class="flex row">
+              <p class="text__muted position">From:</p>
+              <p class="primary company">2020-2022</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex_center stars_container">
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide testimonial">
+        <div class="flex user">
+          <div class="profile">
+            <img src="./assets/client3.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h2 class="name">Primary  Schooling-Tiny Tots Olymipiad School</h2>
+            <div class="flex row">
+              <p class="text__muted position">From:</p>
+              <p class="primary company">2008-2020</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex_center stars_container">
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+          <i data-custom-icon="star"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- Testimonials End -->
+    
+    <!--Contact section start-->
+    <section id="contact">
+        <div class="container">
+            <div class="left__column">
+                <div class="box">
+                    <div class="cluster">
+                        <h2 class="sub__title">
+                            Let’s <span class="primary">create something</span> amazing together!
+                        </h2>
+                        <p class="description">
+                           I’m excited to learn, grow, and collaborate on meaningful projects. Whether it’s an internship, a small idea, or just a friendly conversation — feel free to reach out anytime!
+                        </p>
+                    </div>
+                    <i data-custom-icon="list-option-ui" class="list__ui"></i>
+                </div>
+                <div class="box">
+                    <div class="cluster">
+                        <!--option start-->
+                        <div class="flex option">
+                            <div class="icon__container">
+                                <i data-lucide="at-sign"></i>
+                            </div>
+                            <div class="details">
+                                <h3 class="name">Email</h3>
+                                <p class="text__muted value">patchavabindu@gmail.com</p>
+                            </div>
+                        </div>
+                        <!--option end-->
+                        <!--option start-->
+                        <div class="flex option">
+                            <div class="icon__container">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="details">
+                                <h3 class="name">Phone</h3>
+                                <p class="text__muted value">+91 9550538937</p>
+                            </div>
+                        </div>
+                        <!--option end-->
+                        <!--option start-->
+                        <div class="flex option">
+                            <div class="icon__container">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="details">
+                                <h3 class="name">Address</h3>
+                                <p class="text__muted value">Guntur, Andhra Pradesh</p>
+                            </div>
+                        </div>
+                        <!--option end-->
+                    </div>
+                </div>
+            </div>
+            <form class="contact__form">
+                <div class="spotlight"></div>
+                <h2 class="sub__title">
+                    Let's Work <span class="primary">Together!!</span>
+                </h2>
+                <div class="row">
+                    <input type="text" placeholder="First Name" name="firstname" class="control"/>
+                    <input type="text" placeholder="Last Name" name="lastname" class="control"/>
+                </div>
+                <div class="row">
+                    <input type="email" placeholder="Email address" name="email" class="control"/>
+                    <input type="tel" placeholder="Phone number" name="phone" class="control"/>
+                </div>
+                <textarea name="message" placeholder="Message" class="control"></textarea>
+                <button type="button" class="btn btn_primary submit_btn">Send Now</button>
+            </form>
+                
+        </div>
+    </section>
+    <!--Contact section end-->
+
+
+    <!--Footer start-->
+    <footer id="footer">
+        <div class="spotlight"></div>
+        <div class="container">
+            <div class="grid">
+                <div class="col-2 column">
+                    <div class="logo">
+                        <i data-custom-icon="logo"></i>
+
+                    </div>
+                    <p class="text__muted description">Crafting responsive websites 🌐 and writing robust Java applications ☕ with clean code and a user-first mindset. As a fresher, I’m passionate about learning, building, and solving real-world problems 🚀. Let’s connect and create something impactful!</p>
+                    <div class="flex social__handles">
+                            
+                        <a href="#" target="blank" class="icon_container handle">
+                            <i data-custom-icon="github"></i>
+                        </a>
+                        <a href="#" target="blank" class="icon_container handle">
+                            <i data-custom-icon="linkedin"></i>
+                        </a>
+                        <a href="#" target="blank" class="icon_container handle">
+                            <i data-custom-icon="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <h3 class="group__name">Hot Links</h3>
+                    <div class="routes__container">
+                        <a href="#header" class="route__item">Home</a>
+                        <a href="#about" class="route__item">About</a>
+                        <a href="#services" class="route__item">Services</a>
+                        <a href="#projects" class="route__item">Projects</a>
+                        <a href="#testimonials" class="route__item">Education</a>
+                        <a href="#contact" class="route__item">Contact</a>
+
+                    </div>
+                    
+                </div>
+                <div class="column">
+                    <h3 class="group__name">Others</h3>
+                    <div class="routes__container">
+                        <a href="#" class="route__item">Privacy Policy</a>
+                        <a href="#" class="route__item">Terms and Conditions</a>
+                        <a href="#" class="route__item">Cookie Policy</a>
+                    </div>
+                </div>
+            </div><!--end grid-->
+            <div class="copyright">
+                <div class="footer__bottom">
+                    
+                    <h2>Build with passion by <span class="primary">Patchava Hima Bindu</span></h2>
+</div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!--Footer end-->
+
+
+
+
+
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
